@@ -1,0 +1,36 @@
+.header__top{
+    border-bottom: 1px solid #8080802d;
+}
+.aside{
+    top: 2rem;
+}
+
+@font-face {
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: 400;
+    src:
+    url('../fonts/playfair-display-v30-latin-regular.woff2') format('woff2'),
+    url('../fonts/playfair-display-v30-latin-regular.woff') format('woff'); 
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Playfair Display';
+    font-weight: bold;
+}
+
+.blog-footer {
+    padding: 2.5rem 0;
+    color: #727272;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-top: .05rem solid #e5e5e5;
+}
+.blog-footer p:last-child {
+    margin-bottom: 0;
+}
